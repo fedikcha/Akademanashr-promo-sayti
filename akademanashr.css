@@ -1,0 +1,143 @@
+body{
+  font-style: 16px;
+  line-height: 1.5;
+  font-family: "Roboto" "Arial" "sans serif";
+  letter-spacing: 0.5px;
+}
+*{
+  font-style: 16px;
+  line-height: 1.5;
+  font-family: "Roboto" "Arial" "sans serif";
+  letter-spacing: 0.5px;
+}
+/* SITE HEADER */
+.site-header{
+  background-color: white;
+}
+
+/* SITENAV */
+.sitenav-list{
+  list-style: none;
+}
+
+.sitenev-link{
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+/* MAIN-LINK */
+.main-link{
+  font-size: 13px;
+  line-height: 15px;
+  color: #fff;
+  background-color: #ff7500;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero{
+  background: #252420;
+  color: #fff;
+}
+
+.hero-content{
+  width: 390px;
+}
+
+.orenge-linee{
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-heading{
+  font-style: 40px;
+  line-height: 1.2;
+  font-family: "Roboto condensed", "Roboto", "Arial", "Sans-serif";
+}
+
+.hero-img{
+  width: 510px;
+  height: 510px;
+}
+/* FEATURES */
+
+.Features-heading{
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
+}
+
+/* FEATURE */
+.feature-icon-wrapper{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-title{
+  font-style: 24px;
+  line-height: 1.2;
+  font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
+}
+
+.feature{
+  width: 340px;
+}
+
+/* PROMO */
+.promo{
+  background-color: #252420;
+  color: #fff;
+}
+.prome-content{
+  width: 440px;
+}
+.promo-heading{
+  font-style: 40px;
+  line-height: 1.5;
+  font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
+}
+
+.promo-highlight{
+  color: #ff7500;
+}
+
+.promo-img{
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+/* SITE-FOOTER */
+.site-foote{
+  background-color: #f8f8f8;
+}
+.site-footer-divider{
+  background-color: rgba(37, 36, 32, 0.5);
+  height: 2px;
+}
+
+.site-footer-links{
+  list-style: none;
+  width: 224px;
+}
+
+.site-footer-links a{
+  text-decoration: none;
+  color: #252420;
+  line-height: 19px;
+}
+
+.ullar{
+  list-style: none;
+}
