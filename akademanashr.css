@@ -4,11 +4,13 @@ body{
   font-family: "Roboto" "Arial" "sans serif";
   letter-spacing: 0.5px;
 }
-*{
+*:focus{
   font-style: 16px;
   line-height: 1.5;
   font-family: "Roboto" "Arial" "sans serif";
   letter-spacing: 0.5px;
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
 }
 /* SITE HEADER */
 .site-header{
@@ -16,6 +18,16 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+.logo-link:hover{
+  opacity: 0.8;
+}
+.logo-link:active{
+  opacity: 0.6;
 }
 
 .Site-header-actions{
@@ -39,6 +51,13 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+.sitenev-link:hover{
+  color: #ff7500;
+}
+.sitenev-link:active{
+  opacity: 0.6;
 }
 
 /* MAIN-LINK */
@@ -48,6 +67,13 @@ body{
   color: #fff;
   background-color: #ff7500;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+.main-link:hover{
+  opacity: 0.8;
+}
+.main-link:active{
+  opacity: 0.6;
 }
 
 /* HERO */
@@ -157,6 +183,16 @@ body{
   list-style: none;
 }
 
+.site-footer-sorciols{
+  color: #251420;
+}
+.site-footer-sorciols a:hover{
+  color: #ff7500;
+}
+.site-footer-sorciols a:active{
+  opacity: 0.6;
+}
+
 .site-footer-divider{
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
@@ -175,6 +211,12 @@ body{
   text-decoration: none;
   color: #252420;
   line-height: 19px;
+}
+.site-footer-links a:hover{
+  color: #ff7500;
+}
+.site-footer-links a:active{
+  opacity: 0.6;
 }
 
 .ullar{
