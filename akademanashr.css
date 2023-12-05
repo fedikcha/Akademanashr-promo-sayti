@@ -13,11 +13,20 @@ body{
 /* SITE HEADER */
 .site-header{
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Site-header-actions{
+  display: flex;
+  align-items: center;
 }
 
 /* SITENAV */
 .sitenav-list{
   list-style: none;
+  display: flex;
 }
 
 .sitenev-link{
@@ -45,13 +54,16 @@ body{
 .hero{
   background: #252420;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-content{
   width: 390px;
 }
 
-.orenge-linee{
+.orenge-line{
   width: 80px;
   height: 3px;
   background-color: #ff7500;
@@ -77,6 +89,11 @@ body{
   font-family: "Roboto Condensed", "Roboto" "Arial" sans-serif;
 }
 
+.features-list{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* FEATURE */
 .feature-icon-wrapper{
   width: 100px;
@@ -98,7 +115,11 @@ body{
 .promo{
   background-color: #252420;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .prome-content{
   width: 440px;
 }
@@ -119,12 +140,30 @@ body{
 }
 
 /* SITE-FOOTER */
-.site-foote{
+.site-footer{
   background-color: #f8f8f8;
 }
+
+.site-footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.site-footer-sorciols{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
 .site-footer-divider{
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
+}
+
+.site-footer-bottom{
+  display: flex;
 }
 
 .site-footer-links{
